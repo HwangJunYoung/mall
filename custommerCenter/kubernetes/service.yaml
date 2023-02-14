@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: custommerCenter
+  name: customercenter
   labels:
-    app: custommerCenter
+    app: customercenter
 spec:
   ports:
     - port: 8080
       targetPort: 8080
   selector:
-    app: custommerCenter
+    app: customercenter
